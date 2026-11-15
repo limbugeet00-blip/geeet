@@ -1,4 +1,4 @@
-local Rayfield = loadstringgame:HttpGet'https://githubusercontent.com'))()
+local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 
 local Window = Rayfield:CreateWindow({
    Name = "geet hub aim bot",
@@ -20,7 +20,8 @@ local Toggle = aimbotTab:CreateToggle({
    Flag = "Toggle1",
    Callback = function(Value)
       if not getgenv().dhlock then
-          "https://githubusercontent.com"loadstring(game:HttpGet(...))()
+          -- loadstring(game:HttpGet("https://githubusercontent.com..."))()
+
       end
       if getgenv().dhlock then
          getgenv().dhlock.enabled = Value
